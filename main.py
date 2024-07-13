@@ -26,6 +26,7 @@ create_nosql_db()
 origins = [
     "http://localhost:3000",
     "http://localhost:3001",
+    "https://hng-st-three-project.up.railway.app",
 ]
 
 app.add_middleware(
